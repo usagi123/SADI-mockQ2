@@ -25,20 +25,18 @@ WITH SECURITY:
            
            Syntax to Insert Data (Replace with correct ones):
                         {
-                            "address": "123 To Hien Thanh",
-                            "dob": "16/04",
-                            "gender": "Male",
-                            "name": "Tung",
-
-                            "applications":[
-                             {
-                              "date": "16/04",
-                              "visatype": "F1",
-                              "isSingleEntry": true
-                             }
-
-                             ]
-                           }
+        "name": "aaaaaaaa",
+        "address": "hloe",
+        "dob": "08/08",
+        "gender": "coolest",
+        "applications": [
+            {
+                "date": "08/08",
+                "visatype": "F1",
+                "singleEntry": false
+            }
+        ]
+    }
            PUT (EDIT) : localhost:8080/applicants/1/?access_token=4ffe7891-acc0-42b9-a3d5-31634f48f3c0    ( replace applicants and access_token with correct ones )
            
            Click On Body Tab, choose Raw - JSON (application/json) - Authorization - Type: No Auth. 
