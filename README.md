@@ -1,3 +1,5 @@
+0.0 Change POM dependecy
+
 0.1. Make sure you have those below lines In The Request Mapping In RescourcesServerConfig ( Make sure to uncomment and Change applicants and applications to approriate ones in the topic ):
 
        http.authorizeRequests()
