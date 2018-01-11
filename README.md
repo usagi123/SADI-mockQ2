@@ -13,7 +13,7 @@
 
 WITH SECURITY:
 
-    GET ACCESS TOKEN: localhost:8080/oauth/token?grant_type=password&username=admin&password=admin    ( Authroization Type: Basic Auth )
+    POST ACCESS TOKEN: localhost:8080/oauth/token?grant_type=password&username=admin&password=admin    ( Authroization Type: Basic Auth )
 
   CRUD PART:
 
