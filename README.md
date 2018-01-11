@@ -1,3 +1,19 @@
+0.1. Make sure you have those below lines In The Request Mapping In RescourcesServerConfig ( Make sure to uncomment and Change applicants and applications to approriate ones in the topic ):
+
+       http.authorizeRequests()
+                .antMatchers("/oauth/**").permitAll()
+                .antMatchers("/applicants").hasRole("ADMIN")
+                .antMatchers("/applications/").hasRole("ADMIN");
+                
+0.2 Change the class name and attributes to approrate one to the topic
+
+0.3 Determine which object is one-to-many, which object is many-to-one
+
+0.4 Make sure there is no misssing annotation
+
+----------------------------------------------------------------------------------------------------------------------
+
+
 1.To run the project: 
 
 
