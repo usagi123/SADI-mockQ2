@@ -41,7 +41,7 @@ WITH SECURITY:
            
            Click On Body Tab, choose Raw - JSON (application/json) - Authorization - Type: No Auth. 
            
-           Syntax to Insert Data (Replace with correct ones):
+           Syntax to Insert Data (Replace with correct ones) ( MAKE SURE THAT YOU HAVE CORRECT ID FOR BOTH APPLICANT AND APPLICATION )
                         {
                             "id":1,
                             "address": "123 To Hien Thanh",
