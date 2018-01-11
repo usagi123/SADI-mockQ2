@@ -63,6 +63,8 @@ WITH SECURITY:
            
 3. COMMON ERRORS:
 
+       401 : error with method used in Postman. Check if use correct method in PostMan( Post for access token, get for view, post for add, put for update)
+       
        404 : error with request mapping (check controller)
 
        415 : error with data type (when POST), check postman if the data entered is in order with correct data type with correct PostMan syntax
